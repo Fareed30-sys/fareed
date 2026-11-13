@@ -1,0 +1,28 @@
+{
+  "name": "agro-ai-assistant",
+  "version": "1.0.0",
+  "description": "Production-ready AI-Powered Agriculture Crop Advisory Assistant",
+  "private": true,
+  "scripts": {
+    "server:install": "cd server && npm install",
+    "client:install": "cd client && npm install",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "agriculture",
+    "agritech",
+    "ai",
+    "gemini",
+    "crop-recommendation",
+    "soil-health",
+    "supabase",
+    "react",
+    "express"
+  ],
+  "author": "AgroAI Team",
+  "license": "MIT"
+}
+
